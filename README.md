@@ -1,11 +1,13 @@
 # infoelectoral-madrid
+![License](https://img.shields.io/github/license/franloza/infoelectoral-madrid)
+
 Aplicación para obtener los datos de las candidaturas a las elecciones autonómicas de la Comunidad de Madrid en los últimos años.
 
 Repositorio inspirado en [infoelectoral](https://github.com/JaimeObregon/infoelectoral) de [JaimeObregon](https://github.com/JaimeObregon).
 Este repositorio surge de la necesidad de acudir a los portales de cada gobierno autómico para obtener las candidaturas (Ver [Issue](https://github.com/JaimeObregon/infoelectoral/issues/2))
 
-Esta aplicación genera un fichero CSV con los datos contenidos en el [portal de la JEC](http://www.juntaelectoralcentral.es/cs/jec/elecciones/autonomicas/madrid) para las elecciones autonómicas de Madrid 
-celebradas entre 2011 y 2019.
+Esta aplicación genera un fichero CSV con los documentos obtenidos del [portal de la JEC](http://www.juntaelectoralcentral.es/cs/jec/elecciones/autonomicas/madrid) correspondientes a las elecciones autonómicas de Madrid, 
+celebradas entre 2007 y 2019.  
 
 ## Proceso
 1. He añadido todos los documentos en formato comprimido en la carpeta [files/pdf](files/pdf). Para añadir algún fichero mas,

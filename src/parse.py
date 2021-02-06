@@ -45,7 +45,7 @@ def parse_file(file_name, date):
                 candidate_note = candidate_name[1].replace(')', '') if len(candidate_name) > 1 else None
                 yield Candidatura(
                     nombre_partido=party_name,
-                    nombre_candidato=candidate_name[0],
+                    nombre_candidato=candidate_name[0].replace('.','').strip(),
                     es_suplente=is_alternate,
                     abbr_partido=party_abbr,
                     num_candidatura=int(candidate_info[0]),
