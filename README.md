@@ -5,7 +5,7 @@ Repositorio inspirado en [infoelectoral](https://github.com/JaimeObregon/infoele
 Este repositorio surge de la necesidad de acudir a los portales de cada gobierno autómico para obtener las candidaturas (Ver [Issue](https://github.com/JaimeObregon/infoelectoral/issues/2))
 
 Esta aplicación genera un fichero CSV con los datos contenidos en el [portal de la JEC](http://www.juntaelectoralcentral.es/cs/jec/elecciones/autonomicas/madrid) para las elecciones autonómicas de Madrid 
-celebradas entre 2015 y 2019.
+celebradas entre 2011 y 2019.
 
 ## Proceso
 1. He añadido todos los documentos en formato comprimido en la carpeta [files/pdf](files/pdf). Para añadir algún fichero mas,

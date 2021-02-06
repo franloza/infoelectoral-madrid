@@ -16,6 +16,7 @@ class Candidatura:
     nombre_partido: str
     abbr_partido: str
     fecha: str
+    nota: str
 
 
 def parse_file(file_name, date):
@@ -40,13 +41,16 @@ def parse_file(file_name, date):
                 if candidate_info is None:
                     raise ValueError(candidate)
                 candidate_info = candidate_info.groups()
+                candidate_name = candidate_info[1].split('(')
+                candidate_note = candidate_name[1].replace(')', '') if len(candidate_name) > 1 else None
                 yield Candidatura(
                     nombre_partido=party_name,
-                    nombre_candidato=candidate_info[1],
+                    nombre_candidato=candidate_name[0],
                     es_suplente=is_alternate,
                     abbr_partido=party_abbr,
                     num_candidatura=int(candidate_info[0]),
-                    fecha=date
+                    fecha=date,
+                    nota=candidate_note
                 )
 
 
