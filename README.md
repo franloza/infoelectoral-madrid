@@ -1,4 +1,5 @@
 # infoelectoral-madrid
+Aplicación para obtener los datos de las candidaturas a las elecciones autonómicas de la Comunidad de Madrid en los últimos años.
 
 Repositorio inspirado en [infoelectoral](https://github.com/JaimeObregon/infoelectoral) de [JaimeObregon](https://github.com/JaimeObregon).
 Este repositorio surge de la necesidad de acudir a los portales de cada gobierno autómico para obtener las candidaturas (Ver [Issue](https://github.com/JaimeObregon/infoelectoral/issues/2))
